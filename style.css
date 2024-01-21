@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-shadow: 4px 1px 5px red;
+    color: red;
+    padding:0rem 0rem 3rem 0rem;
+}
+
+h1{
+    text-align: center;
+    text-decoration:underline dashed black;
+    text-shadow: -3px 0px 4px white
+}
+
+#date{
+    height: 13vh;
+    font-size: xx-large;
+    text-shadow: 4px 1px 5px red;
+    color: red;
+    padding:3rem 0rem 0rem 0rem;
+}
+
+#clock{
+    border: 2px solid rgb(151, 148, 148);
+    border-radius: 3rem;
+    width: 70%;
+    border-radius: 50%;
+    text-align: center;
+    background-color:black;
+    min-width: 200px;
+    box-shadow: 1px 1px 42px white;
+}
