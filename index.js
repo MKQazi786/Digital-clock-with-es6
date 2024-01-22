@@ -13,16 +13,14 @@ setInterval(() => {
 
     let amPm = elemHour > 11 ? "PM" : "AM";
 
-    if (elemHour > 12) {
+    if (elemHour === "0") {
+        elemHour = 12;
+    } else if (elemHour > 12) {
         elemHour = elemHour - 12
-
+        
+    } 
         if (elemHour < 10) {
             elemHour = "0" + elemHour;
-
-            if (elemHour === 0) {
-                elemHour = 12;
-            }
-        }
     }
 
     hour.innerText = elemHour
